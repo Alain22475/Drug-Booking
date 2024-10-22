@@ -1,0 +1,34 @@
+/* src/styles/AdClient.css */
+
+/* Ensure this CSS is consistent with your overall dashboard styles */
+.client-management-container {
+    padding: 20px; /* Padding for the client management section */
+}
+
+.client-management-container h2 {
+    font-size: 1.8rem; /* Font size for title */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+.client-management-container input {
+    width: 100%; /* Full-width input */
+    padding: 10px; /* Padding for input */
+    margin-bottom: 20px; /* Space below input */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.client-management-container table {
+    width: 100%; /* Full-width table */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+.client-management-container th, .client-management-container td {
+    padding: 10px; /* Padding for cells */
+    text-align: left; /* Left-align text */
+    border-bottom: 1px solid #ddd; /* Bottom border */
+}
+
+.client-management-container th {
+    background-color: #f4f4f4; /* Light background for header */
+}

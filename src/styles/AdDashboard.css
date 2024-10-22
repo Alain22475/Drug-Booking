@@ -1,0 +1,74 @@
+/* src/styles/AdDashboard.css */
+
+/* Main container styling */
+.admin-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff; /* Light background for the dashboard */
+}
+
+/* Logo Bar styling */
+.admin-logo-bar {
+    height: 60px; /* Adjust height */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the title */
+    background-color: #4CAF50; /* Green background for the logo bar */
+    padding: 10px; /* Padding for the logo bar */
+    color: white;
+}
+
+/* Main content styling */
+.admin-main-content {
+    display: flex; /* Flex layout for sidebar and content */
+    flex: 1; /* Allow main content to grow */
+}
+
+/* Sidebar styling */
+.admin-sidebar {
+    background-color: rgb(3, 130, 22); /* Green background for the sidebar */
+    width: 220px; /* Fixed width for sidebar */
+    padding: 20px; /* Padding for sidebar items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.admin-sidebar ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.admin-sidebar li {
+    margin: 15px 0; /* Space between sidebar items */
+}
+
+.admin-sidebar a {
+    display: block; /* Block display for easy clicking */
+    padding: 10px; /* Padding for links */
+    color: #ffffff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition effects */
+}
+
+.admin-sidebar a:hover {
+    background-color: #8f8e8e00; /* Light gray background on hover */
+}
+
+/* Content area styling */
+.admin-content {
+    flex: 1; /* Allow content area to take remaining space */
+    padding: 20px; /* Padding for content */
+}
+
+.admin-content h2 {
+    font-size: 1.8rem; /* Font size for the section title */
+    font-weight: 600; /* Bold text */
+    margin-bottom: 15px; /* Space below the title */
+    color: #333; /* Dark text color */
+}
+
+.admin-content p {
+    font-size: 1.1rem; /* Font size for description */
+    color: #555; /* Gray text for better readability */
+}
